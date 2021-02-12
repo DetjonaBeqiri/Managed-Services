@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lan="en">
+    <head>
+        <meta  charset="utf-8">
+        <title> Login Form </title>
+        <link rel="stylesheet" href="css/loginstyle.css">
+        <script src="login2.js"></script>
+
+
+      <!-- lidhja me css per header ,subheader dhe menu
+      <link href="css/style.css" rel="stylesheet"> -->
+
+       <!-- lidhja me css per footer -->
+       <link href="css/footer.css" rel="stylesheet" > 
+     
+    </head>
+
+<body>
+
+        <!--menu bar-->
+        <div id="header" class="col-md-12 container-fluid">
+
+        <!--Header Include-->
+        <div id="menu" class="col-md-12 fluid-container">
+           <img src="Image/cover.png" alt="" style="width: 100px; height: 90px;" >
+           <ul>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="services.html">Services</a></li>
+             <li><a href="blog.html">Blog</a></li>
+             <li><a href="aboutus.html">About Us</a></li>
+             <li><a href="login.html">Log In</a></li>
+           </ul>
+       </div>
+
+        
+        <form class="box" action="login.html" method="POST">
+
+            <h1>
+                LogIn
+            </h1>
+
+            <input type="text" name="" placeholder="Enter Username" id="username"> 
+            <input type="password" name="" placeholder="Enter Password" id="password">
+            <input type="submit" name="" value="Login" onclick="validate()">
+
+        </form>
+    
+
+              <!--Footer Include -->
+     <footer class="footer">
+        <div class="footer-items">
+            <h2>My Account</h2>
+            <ul>
+                <li><a href="index.html">Manage Account</a></li>
+                <li><a href="services.html">Product Support</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="login.html">Product Registration</a></li>
+            </ul>
+        </div>
+        <div class="footer-items">
+            <h2>GET HELP</h2>
+            <ul>
+                <li><a href="index.html">Support</a></li>
+                <li><a href="index.html">Contact Us</a></li>
+                <li><a href="index.html">FAQ</a></li>
+                <li><a href="index.html">Terms & Privacy</a></li>
+            </ul>
+        </div>
+  
+        <div class="footer-items" style="width: 40%; justify-content: space-around;align-items: center;">
+            <div id="socialNetworks">
+                <img src="Image/facebook.png" alt="FACEBOOK LOGO">
+                <img src="Image/instagram.png" alt="INSTAGRAM LOGO">
+                <img src="Image/twitter.png" alt="TWITTER LOGO">
+            </div>
+  
+            <div id="reference">
+                <p><a href="index.html">@ 2020 | Reference | All Rights Reserved</a></p>
+            </div>
+  
+        </div>
+  
+    </footer>
+
+    </body>
+    </html>
